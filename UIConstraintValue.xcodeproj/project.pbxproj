@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		928EB365233D388900C51F6F /* ConstantHelper-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 928EB35F233CACD500C51F6F /* ConstantHelper-iOS.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		928EB365233D388900C51F6F /* UIConstraintValue-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 928EB35F233CACD500C51F6F /* UIConstraintValue-iOS.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		928EB367233DD41400C51F6F /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928EB366233DD41400C51F6F /* DeviceHelper.swift */; platformFilter = ios; };
 		928EB368233DD49A00C51F6F /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928EB35C233CABFE00C51F6F /* NSLayoutHelper.swift */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		928EB351233CAB9800C51F6F /* ConstantHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstantHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928EB351233CAB9800C51F6F /* UIConstraintValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIConstraintValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		928EB35C233CABFE00C51F6F /* NSLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutHelper.swift; sourceTree = "<group>"; };
-		928EB35F233CACD500C51F6F /* ConstantHelper-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConstantHelper-iOS.h"; sourceTree = "<group>"; };
+		928EB35F233CACD500C51F6F /* UIConstraintValue-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIConstraintValue-iOS.h"; sourceTree = "<group>"; };
 		928EB361233CAD8200C51F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		928EB363233D36CA00C51F6F /* ConstantHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConstantHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		928EB363233D36CA00C51F6F /* UIConstraintValue.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UIConstraintValue.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		928EB366233DD41400C51F6F /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,8 +35,8 @@
 		928EB347233CAB9800C51F6F = {
 			isa = PBXGroup;
 			children = (
-				928EB363233D36CA00C51F6F /* ConstantHelper.podspec */,
-				928EB35E233CACB800C51F6F /* ConstantHelper-iOS */,
+				928EB363233D36CA00C51F6F /* UIConstraintValue.podspec */,
+				928EB35E233CACB800C51F6F /* UIConstraintValue-iOS */,
 				928EB353233CAB9800C51F6F /* Sources */,
 				928EB352233CAB9800C51F6F /* Products */,
 			);
@@ -45,7 +45,7 @@
 		928EB352233CAB9800C51F6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				928EB351233CAB9800C51F6F /* ConstantHelper.framework */,
+				928EB351233CAB9800C51F6F /* UIConstraintValue.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,13 +59,13 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		928EB35E233CACB800C51F6F /* ConstantHelper-iOS */ = {
+		928EB35E233CACB800C51F6F /* UIConstraintValue-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				928EB35F233CACD500C51F6F /* ConstantHelper-iOS.h */,
+				928EB35F233CACD500C51F6F /* UIConstraintValue-iOS.h */,
 				928EB361233CAD8200C51F6F /* Info.plist */,
 			);
-			path = "ConstantHelper-iOS";
+			path = "UIConstraintValue-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,16 +75,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928EB365233D388900C51F6F /* ConstantHelper-iOS.h in Headers */,
+				928EB365233D388900C51F6F /* UIConstraintValue-iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		928EB350233CAB9800C51F6F /* ConstantHelper */ = {
+		928EB350233CAB9800C51F6F /* UIConstraintValue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 928EB359233CAB9800C51F6F /* Build configuration list for PBXNativeTarget "ConstantHelper" */;
+			buildConfigurationList = 928EB359233CAB9800C51F6F /* Build configuration list for PBXNativeTarget "UIConstraintValue" */;
 			buildPhases = (
 				928EB34D233CAB9800C51F6F /* Sources */,
 				928EB34E233CAB9800C51F6F /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = ConstantHelper;
+			name = UIConstraintValue;
 			productName = ConstantHelper;
-			productReference = 928EB351233CAB9800C51F6F /* ConstantHelper.framework */;
+			productReference = 928EB351233CAB9800C51F6F /* UIConstraintValue.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 928EB34B233CAB9800C51F6F /* Build configuration list for PBXProject "ConstantHelper" */;
+			buildConfigurationList = 928EB34B233CAB9800C51F6F /* Build configuration list for PBXProject "UIConstraintValue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				928EB350233CAB9800C51F6F /* ConstantHelper */,
+				928EB350233CAB9800C51F6F /* UIConstraintValue */,
 			);
 		};
 /* End PBXProject section */
@@ -292,11 +292,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dnsmob.ConstantHelper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = UIConstraintValue;
+				PRODUCT_NAME = UIConstraintValue;
 				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,17 +318,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dnsmob.ConstantHelper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = UIConstraintValue;
+				PRODUCT_NAME = UIConstraintValue;
 				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		928EB34B233CAB9800C51F6F /* Build configuration list for PBXProject "ConstantHelper" */ = {
+		928EB34B233CAB9800C51F6F /* Build configuration list for PBXProject "UIConstraintValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				928EB357233CAB9800C51F6F /* Debug */,
@@ -335,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		928EB359233CAB9800C51F6F /* Build configuration list for PBXNativeTarget "ConstantHelper" */ = {
+		928EB359233CAB9800C51F6F /* Build configuration list for PBXNativeTarget "UIConstraintValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				928EB35A233CAB9800C51F6F /* Debug */,

@@ -1,9 +1,8 @@
-//  Layout Helper
-//
-//  Created by Wabbiters on 4/15/19.
-//  Copyright © 2019 Wabbiters. All rights reserved.
+// https://github.com/tryWabbit/Layout-Helper
 
 import UIKit
+
+
 enum UIDeviceSize  {
     case i3_5Inch
     case i4Inch
@@ -114,6 +113,7 @@ public enum Model : String {
     AppleTV_4K         = "Apple TV 4K",
     unrecognized       = "?unrecognized?"
 }
+
 public extension UIDevice {
     var type: Model {
         var systemInfo = utsname()
@@ -121,9 +121,9 @@ public extension UIDevice {
         let modelCode = withUnsafePointer(to: &systemInfo.machine) {
             $0.withMemoryRebound(to: CChar.self, capacity: 1) {
                 ptr in String.init(validatingUTF8: ptr)
-
             }
         }
+
         let modelMap : [ String : Model ] = [
             "i386"      : .simulator,
             "x86_64"    : .simulator,

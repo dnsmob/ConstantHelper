@@ -1,8 +1,4 @@
-//  NSLayoutHelper.swift
-//  Layout Helper
-//
-//  Created by Wabbiters on 4/15/19.
-//  Copyright © 2019 Wabbiters. All rights reserved.
+// https://github.com/tryWabbit/Layout-Helper
 
 import UIKit
 

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "928EB350233CAB9800C51F6F"
-               BuildableName = "ConstantHelper.framework"
-               BlueprintName = "ConstantHelper"
-               ReferencedContainer = "container:ConstantHelper.xcodeproj">
+               BuildableName = "UIConstraintValue.framework"
+               BlueprintName = "UIConstraintValue"
+               ReferencedContainer = "container:UIConstraintValue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "928EB350233CAB9800C51F6F"
-            BuildableName = "ConstantHelper.framework"
-            BlueprintName = "ConstantHelper"
-            ReferencedContainer = "container:ConstantHelper.xcodeproj">
+            BuildableName = "UIConstraintValue.framework"
+            BlueprintName = "UIConstraintValue"
+            ReferencedContainer = "container:UIConstraintValue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "928EB350233CAB9800C51F6F"
-            BuildableName = "ConstantHelper.framework"
-            BlueprintName = "ConstantHelper"
-            ReferencedContainer = "container:ConstantHelper.xcodeproj">
+            BuildableName = "UIConstraintValue.framework"
+            BlueprintName = "UIConstraintValue"
+            ReferencedContainer = "container:UIConstraintValue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
